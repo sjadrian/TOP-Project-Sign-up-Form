@@ -8,18 +8,75 @@
     <body>
         <div class="main">
             <div class="left">
-                <h1>Hi</h1>
+                <div class="forImage">
+                    <div class="semi-transparent">
+                        <img src="images/odin-logo.png" alt="Odin Logo" height="100px">
+                        <h1>ODIN</h1>
+                    </div>
+
+                </div>
+
+                <div class="forFooter">
+                    <p class="p-footer">Photo by <a href="" class="a-footer">Halie West</a> on <a href="" class="a-footer">Unsplash</a></p>
+                </div>
             </div>
     
             <div class="right">
                 <div class="first">
-                    Hi
+                    <h3>
+                        This is not a real online service! You know you need something <br>
+                        like this in your real life to help you realize your deepest dreams. <br>
+                        Sign up <em>now</em> to get started.
+                        <br><br>
+                        You <em>know</em> you want to.
+                    </h3>
                 </div>
-                <div class="second">
-                    Hello
-                </div>
+
+                <form action="" method="get">
+                    <div class="second">
+                        <h3 style="margin-left: 50px;padding-top: 10px;"> Let's do this! </h3>
+                        <div class="form-main-div">
+                            <div class="form-divs">
+                                <div class="form-div">
+                                    <label for="firstName">FIRST NAME</label>
+                                    <input type="text" id="firstName" name="firstName">
+                                </div>
+                                <div class="form-div">
+                                    <label for="email">EMAIL</label>
+                                    <input type="email" id="email" name="email">
+                                </div>
+                                <div class="form-div">
+                                    <label for="password">PASSWORD</label>
+                                    <input type="password" id="password" name="password" required>
+                                    <p id="error"></p>
+                                </div>
+                            </div>
+                            <div class="form-divs">
+                                <div class="form-div">
+                                    <label for="lastName">LAST NAME</label>
+                                    <input type="text" id="lastName" name="lasttName">
+                                </div>
+                                <div class="form-div">
+                                    <label for="phone">PHONE NUMBER</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                                <div class="form-div">
+                                    <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 <div class="third">
-                    World
+                    <button type="submit" class="btn-green">
+                        Create Account
+                    </button>
+                </div>
+                </form>
+                <div class="hyperlink">
+                    <p>
+                        Already have an account? <a href="" class="login">Log in</a>
+                    </p>
                 </div>
             </div>
         </div>
